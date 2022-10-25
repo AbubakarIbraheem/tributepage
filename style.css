@@ -1,8 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #main {
-    text-align: center;
-    background-color: lightgrey;
-    padding-top: 5px;
-    font-size: large;
+  text-align: center;
+  background-color: lightgrey;
+  padding-top: 5px;
+  font-size: large;
 }
 #image {
   max-width: auto;
@@ -13,19 +18,21 @@
 }
 
 #tribute-info {
-    margin: 0 auto;
-    max-width: 700px;
-    text-align: justify;
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: justify;
+  padding-top: 2rem;
 }
-#tribute-info, h2 {
+#tribute-info,
+h2 {
   text-align: center;
-
 }
-#tribute-info, ul li {
-    text-align: justify;
-    margin-bottom: 15px;
+#tribute-info,
+ul li {
+  text-align: justify;
+  margin-bottom: 15px;
 }
 #tribute-link {
- text-align: center;
- font-size: large;
+  text-align: center;
+  font-size: large;
 }
